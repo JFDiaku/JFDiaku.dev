@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/JFDiaku.dev/static/css/main.1d01570c.css",
+    "main.css": "/JFDiaku.dev/static/css/main.a4b1b5ca.css",
     "main.js": "/JFDiaku.dev/static/js/main.a5350f59.js",
     "static/media/goplaySearch.svg": "/JFDiaku.dev/static/media/goplaySearch.a04922facca9caa44b8da1205379ae32.svg",
     "static/media/goplayHome.svg": "/JFDiaku.dev/static/media/goplayHome.ef1a75d37ba65d0f5a804efdcbeceae5.svg",
-    "static/media/proPic.png": "/JFDiaku.dev/static/media/proPic.4e2e54683aae1291cdbf.png",
     "static/media/goplayMessage.svg": "/JFDiaku.dev/static/media/goplayMessage.230705d73388b96ed2b19ea954ac0cb0.svg",
     "static/media/goplayAcc.svg": "/JFDiaku.dev/static/media/goplayAcc.f4cc5ffd12026dc5f465230e81cba7ce.svg",
     "static/media/goplaypic.svg": "/JFDiaku.dev/static/media/goplaypic.4c986ecab0bfa5ac30f8b8b5f9bf8c4e.svg",
+    "static/media/proPic.png": "/JFDiaku.dev/static/media/proPic.65a85cbf7f36f57d1432.png",
     "static/media/goplayDash.png": "/JFDiaku.dev/static/media/goplayDash.3b7ee379dbddd69e23d5.png",
     "static/media/goplayRegister.svg": "/JFDiaku.dev/static/media/goplayRegister.160ed13703331eda67839550452503b5.svg",
     "static/media/goplayLogin.svg": "/JFDiaku.dev/static/media/goplayLogin.b18e71aca61827e616e4a71a764b48a7.svg",
@@ -28,11 +28,11 @@
     "static/media/linked.svg": "/JFDiaku.dev/static/media/linked.c341cc1c307221b0fe42599c619ceeaf.svg",
     "index.html": "/JFDiaku.dev/index.html",
     "static/media/html.svg": "/JFDiaku.dev/static/media/html.6e7b1b463015c056aeb9a624c8dc2876.svg",
-    "main.1d01570c.css.map": "/JFDiaku.dev/static/css/main.1d01570c.css.map",
+    "main.a4b1b5ca.css.map": "/JFDiaku.dev/static/css/main.a4b1b5ca.css.map",
     "main.a5350f59.js.map": "/JFDiaku.dev/static/js/main.a5350f59.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d01570c.css",
+    "static/css/main.a4b1b5ca.css",
     "static/js/main.a5350f59.js"
   ]
 }
