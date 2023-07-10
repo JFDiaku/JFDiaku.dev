@@ -2,46 +2,49 @@ import {
   useMediaQuery,
 } from "@mui/material";
 import Button from '@mui/material/Button';
-import { Link } from "react-router-dom";
 import gitlogo from "../imgs/git.svg" ;
 import {useState}  from "react";
 import goPlay from "../imgs/goplaypic.svg";
 import ProjectModal from "./ProjectModal";
 
 
-function Projects() {
+
+function Projects({mode}) {
   const isnonMobileScreens = useMediaQuery("(min-width: 1100px)");
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
+
+  
   
  
   return (
     <>
-      <section  id="Projects" style={{backgroundColor:"#1e1e1e"}} >
+      <section style={mode === 'dark' ? {backgroundColor:"#212121"} : {backgroundColor:"#F6F6F6"}} id="Projects" >
         <div className="container">
-          <div className={isnonMobileScreens ? 'projects' : 'mobProjects'}>
-            <h1 className="projectTitle"><u> PROJECTS </u></h1>
+          <div  className={isnonMobileScreens ? 'projects' : 'mobProjects'}>
+            <h1 className="projectTitle" style={mode === 'dark' ? {color:"white"} 
+            : {color:"#353535"}} ><u><b>PROJECTS</b>  </u></h1>
             
             <div className="projectList">
-              <div className="projCard" >
+              <div style={mode === 'dark' ? {backgroundColor:"#1e1e1e"} 
+                : {backgroundColor:"#E5E5E5"}} className="projCard" >
 
             
-                <img className="projPic" src={goPlay}/>
+                <img className="projPic" alt="GOPLAYDashboard" title="GOPLAYDashboard" src={goPlay}/>
               
                 
                 
 
-                <div className="projDecrip">
+                <div  className="projDecrip">
 
-                  <hl className="projTitle">
-                    GOPLAY
+                  <hl style={mode === 'dark' ? {color:"white"} 
+                    : {color:"#353535"}} className="projTitle">
+                    <b>GOPLAY</b>
                   </hl>
 
-                  <p className="projdetail">
-                  a social web application where local athletes can connect and meet each other to play sports. 
-                  Users can create unique profiles that reflect their sport(s) of interest. Profiles are stored in a SQL databasse that 
-                  is then accessed and used to match users with athletes with similar interests.
+                  <p style={mode === 'dark' ? {color:"#7cc9f3"} : {color:"#23556f"}} className="projdetail">
+                  A social web application where local athletes with similar interest can connect and meet each other to play sports. .
                   </p>
 
                   <div className="stackList">
@@ -56,11 +59,11 @@ function Projects() {
 
                   <Button sx={{marginTop:"2rem"}} onClick={handleOpen} size="small" variant="contained">See More</Button>
                   
-                  <div className="projAcc">
-                    <Link>
-                      Code:&nbsp;
-                      <img className="projIcon" src={gitlogo}/>
-                    </Link>
+                  <div className="projAcc" >
+                    Code:&nbsp; 
+                    <a target="_blank" href={"https://github.com/JFDiaku/GoPlay"}>
+                     <img className="projIcon" alt="gitHubLogo" src={gitlogo}/>
+                    </a>
                     
                   </div>
                   
@@ -69,12 +72,12 @@ function Projects() {
               </div>
 
 
-              <p className="comingSoon">More Projects coming soon....</p>
+              <p className="comingSoon"><b>More Projects coming soon....</b></p>
 
 
             </div>
 
-            <ProjectModal open={open} handleClose={handleClose} handleOpen={handleOpen} />
+            <ProjectModal open={open} handleClose={handleClose} handleOpen={handleOpen} mode={mode} />
   
 
           </div>

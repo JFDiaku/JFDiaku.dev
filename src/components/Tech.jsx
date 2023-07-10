@@ -12,46 +12,54 @@ import {
 } from "@mui/material";
 
 
-function Tech() {
+function Tech({mode}) {
   const isnonMobileScreens = useMediaQuery("(min-width: 1100px)");
   return (
     <>
-      <section>
+      <section >
           <div className="container">
-            <div className={isnonMobileScreens ? "tech" : "Mobiletech"}>
+            <div  className={isnonMobileScreens ? "tech" : "Mobiletech"}>
               {isnonMobileScreens ? 
-              (<p className="techText">
+              (<p style={mode === 'dark' ? {color:"white"} : {color:"black"}} className="techText">
                 Tech Stack&nbsp;&nbsp;&nbsp;&nbsp;|
               </p>):
-              (<p className="mobTechText">
+              (<p style={mode === 'dark' ? {color:"white"} : {color:"black"}} className="mobTechText">
                 <u>Tech Stack</u>
               </p>)}
               
               <div className={isnonMobileScreens ? "techIcons" : "mobTechIcons"}>
                 <ul>
-                  <li>
-                    <img className="techIcon" src={HTMLlogo} alt="HTML"/>
+                  <li style={mode === 'dark' ? {backgroundColor:"#1e1e1e", boxShadow:"2px 2px 12px #1d1d1d"} 
+                  : {backgroundColor:"white", boxShadow:"2px 2px 12px #DEDEDE"}} >
+                    <img className="techIcon" src={HTMLlogo} alt="HTML" title="HTML"/>
                   </li>
-                  <li>
-                    <img className="techIcon" src={CSSlogo}/>
+                  <li style={mode === 'dark' ? {backgroundColor:"#1e1e1e", boxShadow:"2px 2px 12px #1d1d1d"} 
+                  : {backgroundColor:"white", boxShadow:"2px 2px 12px #DEDEDE"}}>
+                    <img className="techIcon" alt="CSS" title="CSS" src={CSSlogo}/>
                   </li>
-                  <li>
-                    <img className="techIcon" src={JSlogo}/>
+                  <li style={mode === 'dark' ? {backgroundColor:"#1e1e1e", boxShadow:"2px 2px 12px #1d1d1d"} 
+                  : {backgroundColor:"white", boxShadow:"2px 2px 12px #DEDEDE"}}>
+                    <img className="techIcon" alt="JavaScript" title="JavaScript" src={JSlogo}/>
                   </li>
-                  <li>
-                    <img className="techIcon" src={php}/>
+                  <li style={mode === 'dark' ? {backgroundColor:"#1e1e1e", boxShadow:"2px 2px 12px #1d1d1d"} 
+                  : {backgroundColor:"white", boxShadow:"2px 2px 12px #DEDEDE"}}>
+                    <img className="techIcon" alt="PHP" title="PHP" src={php}/>
                   </li>
-                  <li>
-                    <img className="techIcon" src={sqllogo}/>
+                  <li style={mode === 'dark' ? {backgroundColor:"#1e1e1e", boxShadow:"2px 2px 12px #1d1d1d"} 
+                  : {backgroundColor:"white", boxShadow:"2px 2px 12px #DEDEDE"}}>
+                    <img className="techIcon" alt="SQL" title="SQL" src={sqllogo}/>
                   </li>
-                  <li>
-                    <img className="techIcon" src={Reactlogo}/>
+                  <li style={mode === 'dark' ? {backgroundColor:"#1e1e1e", boxShadow:"2px 2px 12px #1d1d1d"} 
+                  : {backgroundColor:"white", boxShadow:"2px 2px 12px #DEDEDE"}}>
+                    <img className="techIcon" alt="React" title="React" src={Reactlogo}/>
                   </li>
-                  <li>
-                    <img className="techIcon" src={Mongologo}/>
+                  <li style={mode === 'dark' ? {backgroundColor:"#1e1e1e", boxShadow:"2px 2px 12px #1d1d1d"} 
+                  : {backgroundColor:"white", boxShadow:"2px 2px 12px #DEDEDE"}}>
+                    <img className="techIcon" alt="MongoDB" title="MongoDB"src={Mongologo}/>
                   </li>
-                  <li>
-                    <img className="techIcon" src={Nodelogo}/>
+                  <li style={mode === 'dark' ? {backgroundColor:"#1e1e1e", boxShadow:"2px 2px 12px #1d1d1d"}
+                  : {backgroundColor:"white", boxShadow:"2px 2px 12px #DEDEDE"}}>
+                    <img className="techIcon" alt="NodeJS" title="NodeJS" src={Nodelogo}/>
                   </li>
                 </ul>
               </div>

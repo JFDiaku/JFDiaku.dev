@@ -6,14 +6,19 @@ import linkedlogo from "../imgs/linked.svg" ;
 import gitlogo from "../imgs/git.svg" ;
 
 
-function Footer() {
+function Footer({mode}) {
   const isnonMobileScreens = useMediaQuery("(min-width: 1100px)");
   return (
     <>
-      <section style={{backgroundColor:"333333"}}>
+      <section style={mode === 'dark' ? {backgroundColor:"#212121", boxShadow:"0 0 8px #1d1d1d"} 
+      : {backgroundColor:"white", boxShadow:"0 0 8px #E9E9E9"}}>
         <div className="container">
           <div className={isnonMobileScreens ? 'footer' : 'mobFooter'}>
-            <h3 style={{fontSize:"1em", color:"white"}}><b>Copyright © 2023. All rights are reserved</b></h3>
+
+            <h3 style={mode === 'dark' ? {color:"white", fontSize:"1em", fontWeight:'bold'} 
+            : {color:"#353535", fontSize:"1em", fontWeight:'bold'}}>
+              <b>Copyright © 2023. All rights are reserved</b>
+            </h3>
 
             <span>
               <a target="_blank" href={"https://linkedin.com/in/jeff-francis-diaku-0693b6264"}>

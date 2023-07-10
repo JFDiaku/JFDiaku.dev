@@ -8,18 +8,20 @@ import goplayMessage from "../imgs/goplayMessage.svg";
 import goplayDash from "../imgs/goplayDash.png";
 import goplaySearch from "../imgs/goplaySearch.svg";
 import goplayAcc from "../imgs/goplayAcc.svg";
-
-import {useState}  from "react";
-import { IconButton } from '@mui/material';
 import {Close} from "@mui/icons-material";
+
 
 const Transition = React.forwardRef(function Transition(props, ref) {
   return <Slide direction="up" ref={ref} {...props} />;
 });
- 
-const ProjectModal = ({open, handleClose, handleOpen}) => {
 
-  const [openNav, setOpen] = useState(false);     
+
+ 
+const ProjectModal = ({open, handleClose, handleOpen, mode}) => {
+
+
+
+  
   
   
   const goplayPages = [
@@ -189,7 +191,8 @@ const ProjectModal = ({open, handleClose, handleOpen}) => {
     
     ];
 
-  
+    
+
 
   
   // Function to change the image source
@@ -223,9 +226,10 @@ const ProjectModal = ({open, handleClose, handleOpen}) => {
         onClose={handleClose}
         aria-describedby="alert-dialog-slide-description"
       >
-        <div className="modal">
-            <button className='close-btn' onClick={() => handleClose()}>
-              <Close sx={{fontSize:"1.5em"}}/>
+        <div style={mode === 'dark' ? {backgroundColor:"#131313"} 
+                : {backgroundColor:"#E5E5E5"}} className="modal">
+            <button className={mode === "dark" ? 'close-btn-dark' : 'close-btn-light' } onClick={() => handleClose()}>
+              <Close sx={mode === "dark" ? {color:"white", fontSize:"1.5em"} : {color:"black", fontSize:"1.5em"} }/>
             </button>
          
             <div className="goPlayPgs">
@@ -241,7 +245,7 @@ const ProjectModal = ({open, handleClose, handleOpen}) => {
               
              <div className='page'>
                 <div className='pageDiv'>
-                  <img className='pageImg' src={goPlayHome}/>
+                  <img className='pageImg' alt="pageImages" src={goPlayHome}/>
                 </div>  
              </div>  
             </div>
@@ -257,20 +261,27 @@ const ProjectModal = ({open, handleClose, handleOpen}) => {
               
               
               <div className='goPlaydetails'>
-              <h1 className='detailName'><u>Overview</u></h1>
-              <p style={{marginTop:"1rem"}}>
-                With this being my first full stack application I wanted to create 
-                something that I could find myself actually using. I train in combat sports, 
-                primarily wrestling and kickboxing. Outside of a mixed martial arts gym, 
-                it is hard to find people with the same level of skill and experience to spar with. 
-                Without an already established social circle, some people can find it difficult to find 
-                a partner or a teammate when it comes to things like running, lifting, or in my case, sparing.
-                <br></br>
-                <br></br>
-                With GOPLAY users can create unique profiles that reflect their sport(s) of interest, These profiles 
-                then be seen by other athletes with similar interests to make finding new team-mates and friends easier.
-                
-              </p>
+
+                <h1 style={mode === 'dark' ? {color:"white"} 
+                  : {color:"#353535"}} className='detailName'><u>Overview</u>
+                </h1>
+
+                <p style={{color:"#23556f", marginTop:"1rem"}} className='detailText' >
+                  <b>
+                  With this being my first full stack application I wanted to create 
+                  something that I could find myself actually using. I train in combat sports, 
+                  primarily wrestling and kickboxing. Outside of a mixed martial arts gym, 
+                  it is hard to find people with the same level of skill and experience to spar with. 
+                  Without an already established social circle, some people can find it difficult to find 
+                  a partner or a teammate when it comes to things like running, lifting, or in my case, sparing.
+                  </b>
+                  <br></br>
+                  <br></br>
+                  <b>
+                  With GOPLAY users can create unique profiles that reflect their sport(s) of interest, These profiles 
+                  then be seen by other athletes with similar interests to make finding new team-mates and friends easier.
+                  </b>
+                </p>
  
               </div>
                
