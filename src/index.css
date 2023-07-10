@@ -203,10 +203,10 @@ section{
 
   }
   .Navbar{
-    padding: 1.5rem .5rem;
+    padding: 1.5rem 1rem;
   }
   .navButton{
-    right: .5rem;
+    right: 1rem;
   }
 
   .blob{
