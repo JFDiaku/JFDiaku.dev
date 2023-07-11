@@ -63,9 +63,7 @@ function About({mode}) {
                   and Node.js. I specialize in creating intuitive web applications with exceptional user experiences. 
                   From front-end development to back-end systems, I have a solid understanding of building responsive 
                   interfaces and scalable server-side solutions. With a passion for continuous learning and collaboration, 
-                  I'm always ready to take on new challenges and contribute to cutting-edge projects.
-
-                  In my free time I enjoy 
+                  I'm always ready to take on new challenges and contribute to creative projects.
                 </p>
             </div>
           </div>
