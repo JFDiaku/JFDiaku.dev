@@ -29,7 +29,7 @@ function About({mode}) {
 
                   <img style={mode === 'dark' ? {backgroundColor:"#1e1e1e", boxShadow:"2px 2px 12px #1d1d1d"} 
                   : {backgroundColor:"white", boxShadow:"2px 2px 12px #DEDEDE"}} 
-                  alt="Lifting" title="I pick up heavy thingss...then i put them down." src={lift} className="circleIcon"/>
+                  alt="Lifting" title="I pick up heavy things...then i put them down." src={lift} className="circleIcon"/>
 
                   <img style={mode === 'dark' ? {backgroundColor:"#1e1e1e", boxShadow:"2px 2px 12px #1d1d1d"} 
                   : {backgroundColor:"white", boxShadow:"2px 2px 12px #DEDEDE"}}

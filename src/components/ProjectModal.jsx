@@ -127,14 +127,12 @@ const ProjectModal = ({open, handleClose, handleOpen, mode}) => {
         "path" : goPlayHome,
         "details" : `<h1 class='detailName'><u>Overview</u></h1>
                     <p class='detailText' style='margin-top:1rem'>
-                      With this being my first full stack application I wanted to create 
-                      something that I could find myself actually using. I train in combat sports, 
-                      primarily wrestling and kickboxing. Outside of a mixed martial arts gym, 
+                      I train in combat sports, primarily wrestling and kickboxing. Outside of a mixed martial arts gym, 
                       it is hard to find people with the same level of skill and experience to spar with. 
                       Without an already established social circle, some people can find it difficult to find 
                       a partner or a teammate when it comes to things like running, lifting, or in my case, sparing.
                       <br><br/>
-                      With GOPLAY users can create unique profiles that reflect their sport(s) of interest, These profiles 
+                      With GOPLAY users can create unique profiles that reflect their sport(s) of interest, These profiles can
                       then be seen by other athletes with similar interests to make finding new team-mates and friends easier.
                     <p/>`
       },
@@ -143,7 +141,7 @@ const ProjectModal = ({open, handleClose, handleOpen, mode}) => {
         "path" : goPlayHome,
         "details" : `<h1 class='detailName'><u>Tools</u></h1>
                     <p class='detailText' style='margin-top:1rem'>
-                      The front end of the website was created using HTML and the Bootstrap CSS framework
+                      The Front-End of the website was created using HTML and the Bootstrap CSS framework
                        while the back end was run primarily through PHP, SQL, JavaScript, and Ajax.
                        Other tools include the HTML5 geolocation API to aquire the users location, and 
                       XAMMP to run my application on localhost while providing me with a graphical interface to 
@@ -177,7 +175,7 @@ const ProjectModal = ({open, handleClose, handleOpen, mode}) => {
         "path" : goPlayHome,
         "details" : `<h1 class='detailName'><u>Further development</u></h1>
                     <p class='detailText' style='margin-top:1rem'>
-                      Due to a lack of time and only honeslty only having a basic understanding of the tools and technologies i was using, I was unable to 
+                      Due to a lack of time and only honeslty only having a basic understanding of the tools and technologies i was using at the time, I was unable to 
                       add some of the features i initially wanted in the original application these Features included group chats, Teams, a friend system, and a map page showing the closest parks and recreational centers in the area.
                       <br><br/>
                       I plan on remaking GOPLAY in React as a single page application(SPA). This new version will feature a redesigned landing page,
@@ -268,9 +266,7 @@ const ProjectModal = ({open, handleClose, handleOpen, mode}) => {
 
                 <p style={{color:"#23556f", marginTop:"1rem"}} className='detailText' >
                   <b>
-                  With this being my first full stack application I wanted to create 
-                  something that I could find myself actually using. I train in combat sports, 
-                  primarily wrestling and kickboxing. Outside of a mixed martial arts gym, 
+                  I train in combat sports, primarily wrestling and kickboxing. Outside of a mixed martial arts gym, 
                   it is hard to find people with the same level of skill and experience to spar with. 
                   Without an already established social circle, some people can find it difficult to find 
                   a partner or a teammate when it comes to things like running, lifting, or in my case, sparing.
