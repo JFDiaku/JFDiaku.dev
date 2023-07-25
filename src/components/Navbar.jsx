@@ -49,7 +49,7 @@ function Navbar({mode, toggleMode}) {
               <li>
                 <a 
                 style={mode === 'dark' ? {color:"white"} 
-                : {color:"black"}} href="#Projects">Projects</a>
+                : {color:"black"}} href="#Projects">Porfolio</a>
               </li>
               <li>
                 <a 
