@@ -576,6 +576,7 @@ section{
 
 .projCard{
   display: flex;
+  height: min-content;
   background-color: #131212;
   border-radius: 20px;
   padding: 2rem;
