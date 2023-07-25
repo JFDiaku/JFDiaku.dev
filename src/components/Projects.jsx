@@ -57,15 +57,18 @@ function Projects({mode}) {
                   </div>
 
 
-                  <Button sx={{marginTop:"2rem"}} onClick={handleOpen} size="small" variant="contained">See More</Button>
-                  
-                  <div className="projAcc" >
-                    Code:&nbsp; 
-                    <a target="_blank" href={"https://github.com/JFDiaku/GoPlay"}>
-                     <img className="projIcon" alt="gitHubLogo" src={gitlogo}/>
-                    </a>
+                  <div className="projAcc-list">
+                    <Button sx={isnonMobileScreens ? {maxWidth:"6rem", marginTop:"2rem"} : {maxWidth:"6rem"}} onClick={handleOpen} size="small" variant="contained">See More</Button>
                     
+                    <div className="projAcc" >
+                      Code:&nbsp; 
+                      <a target="_blank" href={"https://github.com/JFDiaku/GoPlay"}>
+                      <img className="projIcon" alt="gitHubLogo" src={gitlogo}/>
+                      </a>
+                      
+                    </div>
                   </div>
+                  
                   
                 </div>
 
