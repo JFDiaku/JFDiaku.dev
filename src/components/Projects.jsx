@@ -76,9 +76,9 @@ function Projects({mode}) {
 
             
 
-              <div>
-                <img className="projPic arg-laptop" alt="GOPLAYDashboard" title="GOPLAYDashboard" src={argHome}/>
-              </div>
+              
+              <img className="projPic arg-laptop" alt="GOPLAYDashboard" title="GOPLAYDashboard" src={argHome}/>
+             
                 
 
               

@@ -551,49 +551,6 @@ section{
 }
 /*******************Projects**************************************************************************/
 
-@media screen and (min-width:1100px){
-  .projPic{
-    height: 275px;
-    width: 475px;
-  }
-  
-}
-
-@media screen and (max-width:1100px){
-  .projCard{
-    flex-direction: column;
-    text-align: center;
-  }
-  .stackList{
-    justify-content: center;
-  }
-  .projPic{
-    margin: auto;
-  }
-  .modal{
-    flex-direction: column;
-    align-items: center;
-    gap: 0;
-  }
-  .goPlayPgs{
-    margin-top: 2rem;
-    text-align: center;
-  }
-  .detailName{
-    text-align: center;
-    
-  }
-  .detailText{
-    text-align: center;
-  }
-  .close-btn-light, .close-btn-dark{
-    left: 45%!important;
-  }
-  .projAcc{
-    margin: auto;
-  }
-  
-}
 
 .projects{
   padding: 3rem 9rem 3rem 9rem;
@@ -685,13 +642,60 @@ section{
   color: #1E1E1E;
 }
 
-.arg-laptop{
-  margin-left: -1.5rem;
-}
 
 .projAcc-list{
   display: flex;
   gap: 2rem;
+}
+
+
+@media screen and (min-width:1100px){
+  .projPic{
+    height: 275px;
+    width: 475px;
+  }
+  
+}
+
+@media screen and (max-width:1100px){
+  .projAcc-list{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .projCard{
+    flex-direction: column;
+    text-align: center;
+  }
+  .stackList{
+    justify-content: center;
+  }
+  .projPic{
+    margin: auto;
+  }
+  .modal{
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+  .goPlayPgs{
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .detailName{
+    text-align: center;
+    
+  }
+  .detailText{
+    text-align: center;
+  }
+  .close-btn-light, .close-btn-dark{
+    left: 45%!important;
+  }
+  .projAcc{
+    margin: auto;
+  }
+  
 }
 
 
