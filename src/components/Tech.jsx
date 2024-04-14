@@ -6,10 +6,12 @@ import Mongologo from "../imgs/mongodb.svg" ;
 import sqllogo from "../imgs/sql.svg" ;
 import JSlogo from "../imgs/JS.svg" ;
 import php from "../imgs/php.svg";
+import muiLogo from "../imgs/muiLogo.png";
 
 import {
   useMediaQuery,
 } from "@mui/material";
+import { MultilineChart } from "@mui/icons-material";
 
 
 function Tech({mode}) {
@@ -37,6 +39,10 @@ function Tech({mode}) {
                   : {backgroundColor:"white", boxShadow:"2px 2px 12px #DEDEDE"}}>
                     <img className="techIcon" alt="CSS" title="CSS" src={CSSlogo}/>
                   </li>
+                  <li style={mode === 'dark' ? {backgroundColor:"#1e1e1e", boxShadow:"2px 2px 12px #1d1d1d"}
+                  : {backgroundColor:"white", boxShadow:"2px 2px 12px #DEDEDE"}}>
+                    <img className="techIcon" alt="Material UI" title="Material UI" src={muiLogo}/>
+                  </li>
                   <li style={mode === 'dark' ? {backgroundColor:"#1e1e1e", boxShadow:"2px 2px 12px #1d1d1d"} 
                   : {backgroundColor:"white", boxShadow:"2px 2px 12px #DEDEDE"}}>
                     <img className="techIcon" alt="JavaScript" title="JavaScript" src={JSlogo}/>
@@ -53,14 +59,11 @@ function Tech({mode}) {
                   : {backgroundColor:"white", boxShadow:"2px 2px 12px #DEDEDE"}}>
                     <img className="techIcon" alt="React" title="React" src={Reactlogo}/>
                   </li>
-                  <li style={mode === 'dark' ? {backgroundColor:"#1e1e1e", boxShadow:"2px 2px 12px #1d1d1d"} 
-                  : {backgroundColor:"white", boxShadow:"2px 2px 12px #DEDEDE"}}>
-                    <img className="techIcon" alt="MongoDB" title="MongoDB"src={Mongologo}/>
-                  </li>
                   <li style={mode === 'dark' ? {backgroundColor:"#1e1e1e", boxShadow:"2px 2px 12px #1d1d1d"}
                   : {backgroundColor:"white", boxShadow:"2px 2px 12px #DEDEDE"}}>
                     <img className="techIcon" alt="NodeJS" title="NodeJS" src={Nodelogo}/>
                   </li>
+                 
                 </ul>
               </div>
             </div>    

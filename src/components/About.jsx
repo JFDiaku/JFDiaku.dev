@@ -59,10 +59,8 @@ function About({mode}) {
                 <h1 style={mode === 'dark' ? {color:"white"} : {color:"#353535"}} className="aboutDescrip">A dedicated Full-stack developer based in Austin, Texas 📍</h1>
 
                 <p style={mode === 'dark' ? {color:"#7cc9f3"} : {color:"#23556f"}} className="AboutText">
-                  Hi, Im jeff. I'm a Full Stack Developer skilled in HTML, CSS, JavaScript, PHP, SQL, MongoDB, React.js,
-                  and Node.js. I specialize in creating intuitive web applications with exceptional user experiences. 
-                  From front-end development to back-end systems, I have a solid understanding of building responsive 
-                  interfaces and scalable server-side solutions. With a passion for continuous learning and collaboration, 
+                  Hi, Im jeff. I'm a Full Stack Developer skilled in HTML, CSS, JavaScript, PHP, SQL, React.js,
+                  and Node.js. I specialize in creating intuitive web applications with exceptional user experiences. With a passion for continuous learning and collaboration, 
                   I'm always ready to take on new challenges and contribute to creative projects.
                 </p>
             </div>
