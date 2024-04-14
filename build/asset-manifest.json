@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/JFDiaku.dev/static/css/main.77f96634.css",
+    "main.js": "/JFDiaku.dev/static/js/main.ca6fe4b6.js",
+    "static/media/wbHome.svg": "/JFDiaku.dev/static/media/wbHome.382a5a1085e085167d7fe4010a612db4.svg",
+    "static/media/argHome.svg": "/JFDiaku.dev/static/media/argHome.36c42f32c90ddd0c68fc9e12a5deede7.svg",
+    "static/media/goplaySearch.svg": "/JFDiaku.dev/static/media/goplaySearch.a04922facca9caa44b8da1205379ae32.svg",
+    "static/media/goplayHome.svg": "/JFDiaku.dev/static/media/goplayHome.ef1a75d37ba65d0f5a804efdcbeceae5.svg",
+    "static/media/goplaypic.svg": "/JFDiaku.dev/static/media/goplaypic.2b307f1c65020087c8902f794048ca7d.svg",
+    "static/media/goplayMessage.svg": "/JFDiaku.dev/static/media/goplayMessage.230705d73388b96ed2b19ea954ac0cb0.svg",
+    "static/media/goplayAcc.svg": "/JFDiaku.dev/static/media/goplayAcc.f4cc5ffd12026dc5f465230e81cba7ce.svg",
+    "static/media/proPic.png": "/JFDiaku.dev/static/media/proPic.65a85cbf7f36f57d1432.png",
+    "static/media/goplayDash.png": "/JFDiaku.dev/static/media/goplayDash.3b7ee379dbddd69e23d5.png",
+    "static/media/laptop.png": "/JFDiaku.dev/static/media/laptop.55d6cbb62c5ced9bbaf6.png",
+    "static/media/goplayRegister.svg": "/JFDiaku.dev/static/media/goplayRegister.160ed13703331eda67839550452503b5.svg",
+    "static/media/goplayLogin.svg": "/JFDiaku.dev/static/media/goplayLogin.b18e71aca61827e616e4a71a764b48a7.svg",
+    "static/media/music.png": "/JFDiaku.dev/static/media/music.836016b8bf6a2b34dab3.png",
+    "static/media/cook.png": "/JFDiaku.dev/static/media/cook.8221da2234ab818801d5.png",
+    "static/media/lift.png": "/JFDiaku.dev/static/media/lift.91225939513df75c9f2d.png",
+    "static/media/comic.png": "/JFDiaku.dev/static/media/comic.b00e7c07c31c218878f9.png",
+    "static/media/punch.png": "/JFDiaku.dev/static/media/punch.c128a8e4ea0785d85cca.png",
+    "static/media/food.png": "/JFDiaku.dev/static/media/food.d7f1e339a6a65a8bc1b4.png",
+    "static/media/React.svg": "/JFDiaku.dev/static/media/React.afac9c43724070bf6674f2692b7356a9.svg",
+    "static/media/Node.svg": "/JFDiaku.dev/static/media/Node.e7e718538ada32a8dc2b61340a397034.svg",
+    "static/media/php.svg": "/JFDiaku.dev/static/media/php.099cd051f27e93830fcdb7b1ac05bc40.svg",
+    "static/media/sql.svg": "/JFDiaku.dev/static/media/sql.9c81c444e214ac59f3b82775061eb41c.svg",
+    "static/media/git.svg": "/JFDiaku.dev/static/media/git.e35c71752b296aa276f44b3be062ef25.svg",
+    "static/media/JS.svg": "/JFDiaku.dev/static/media/JS.de4c2594613e34b15666206bbede7327.svg",
+    "static/media/CSS.svg": "/JFDiaku.dev/static/media/CSS.9cecabbf6ce67609c48bc4f280a11002.svg",
+    "static/media/mongodb.svg": "/JFDiaku.dev/static/media/mongodb.bfa6cdd80f4a99232cadb39ebbb976d2.svg",
+    "static/media/linked.svg": "/JFDiaku.dev/static/media/linked.c341cc1c307221b0fe42599c619ceeaf.svg",
+    "index.html": "/JFDiaku.dev/index.html",
+    "static/media/html.svg": "/JFDiaku.dev/static/media/html.6e7b1b463015c056aeb9a624c8dc2876.svg",
+    "main.77f96634.css.map": "/JFDiaku.dev/static/css/main.77f96634.css.map",
+    "main.ca6fe4b6.js.map": "/JFDiaku.dev/static/js/main.ca6fe4b6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77f96634.css",
+    "static/js/main.ca6fe4b6.js"
+  ]
+}
