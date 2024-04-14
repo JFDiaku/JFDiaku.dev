@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/JFDiaku.dev/static/css/main.538d4d5c.css",
-    "main.js": "/JFDiaku.dev/static/js/main.18fe51d6.js",
+    "main.css": "/JFDiaku.dev/static/css/main.fd70a110.css",
+    "main.js": "/JFDiaku.dev/static/js/main.e31c24bc.js",
+    "static/media/wbHome.svg": "/JFDiaku.dev/static/media/wbHome.382a5a1085e085167d7fe4010a612db4.svg",
     "static/media/argHome.svg": "/JFDiaku.dev/static/media/argHome.36c42f32c90ddd0c68fc9e12a5deede7.svg",
     "static/media/goplaySearch.svg": "/JFDiaku.dev/static/media/goplaySearch.a04922facca9caa44b8da1205379ae32.svg",
     "static/media/goplayHome.svg": "/JFDiaku.dev/static/media/goplayHome.ef1a75d37ba65d0f5a804efdcbeceae5.svg",
@@ -30,11 +31,11 @@
     "static/media/linked.svg": "/JFDiaku.dev/static/media/linked.c341cc1c307221b0fe42599c619ceeaf.svg",
     "index.html": "/JFDiaku.dev/index.html",
     "static/media/html.svg": "/JFDiaku.dev/static/media/html.6e7b1b463015c056aeb9a624c8dc2876.svg",
-    "main.538d4d5c.css.map": "/JFDiaku.dev/static/css/main.538d4d5c.css.map",
-    "main.18fe51d6.js.map": "/JFDiaku.dev/static/js/main.18fe51d6.js.map"
+    "main.fd70a110.css.map": "/JFDiaku.dev/static/css/main.fd70a110.css.map",
+    "main.e31c24bc.js.map": "/JFDiaku.dev/static/js/main.e31c24bc.js.map"
   },
   "entrypoints": [
-    "static/css/main.538d4d5c.css",
-    "static/js/main.18fe51d6.js"
+    "static/css/main.fd70a110.css",
+    "static/js/main.e31c24bc.js"
   ]
 }
